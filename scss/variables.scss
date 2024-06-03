@@ -1,0 +1,57 @@
+// variables.scss
+
+// Цвета
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$background-color: #333;
+$text-color: #fff;
+
+// Шрифты
+$base-font-family: 'Arial, sans-serif';
+$heading-font-family: 'Georgia, serif';
+
+// Размеры шрифтов
+$base-font-size: 16px;
+$heading-font-size: 2em;
+$small-font-size: 0.875em;
+
+// Отступы
+$base-margin: 16px;
+$base-padding: 16px;
+$small-margin: 8px;
+$small-padding: 8px;
+
+// Брейкпоинты
+$mobile: 600px;
+$tablet: 768px;
+$desktop: 1024px;
+
+$mobile-ss: 290px;  // Маленькие мобильные устройства
+$mobile-s: 320px;  // Маленькие мобильные устройства
+$mobile-m: 375px;  // Средние мобильные устройства
+$mobile-l: 425px;  // Большие мобильные устройства
+$tablet: 768px;    // Планшеты
+$laptop: 1024px;   // Ноутбуки
+$desktop: 1440px;  // Десктопы
+$desktop-l: 2560px;// Большие десктопы
+
+$phone-portrait: 480px;     // Портретный режим на телефонах
+$phone-landscape: 640px;    // Альбомный режим на телефонах
+$tablet-portrait: 768px;    // Портретный режим на планшетах
+$tablet-landscape: 1024px;  // Альбомный режим на планшетах
+$small-desktop: 1280px;     // Маленькие десктопы
+$large-desktop: 1920px;     // Большие десктопы
+
+$content-narrow: 800px;     // Узкий контент
+$content-medium: 1100px;    // Средний контент
+$content-wide: 1400px;      // Широкий контент
+
+$xs: 480px; // Очень маленькие (Extra small)
+$sm: 576px; // Маленькие (Small)
+$md: 768px; // Средние (Medium)
+$lg: 992px; // Большие (Large)
+$xl: 1200px; // Очень большие (Extra large)
+
+// Размеры
+$container-width: 1200px;
+$sidebar-width: 300px;
